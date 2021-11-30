@@ -1,0 +1,19 @@
+.footer-div{
+    height:450px;
+    border:2px solid black;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(225, 27, 34,0.8), rgb(225, 27, 34, 0.9)),url("https://st.depositphotos.com/2931363/5065/i/950/depositphotos_50655175-stock-photo-four-happy-young-people-bonding.jpg");
+
+    .icon-div{
+        border-radius: 50%;
+        color:rgba(225, 27, 34);
+        height:50px;
+        width:50px;
+        background-color: white;
+        transition-duration: 0.5s;
+    }
+    .icon-div:hover{
+        transform: translateY(1.1);
+    }
+}

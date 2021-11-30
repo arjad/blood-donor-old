@@ -1,0 +1,43 @@
+.nav2{
+    height:80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo-img{
+        width: 70px;
+        position: absolute;
+        left:30px;
+    }
+    .btns-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;        
+        list-style: none;
+        float: right;
+
+        li{
+            color:#E11B22;
+            font-weight: bold;
+            font-size: 22px;
+            position: relative;
+            img{
+                position: absolute;
+                left:0px;
+                top:70%;
+                height: 30px;
+                width: 0%;
+            }
+            
+        }
+        li:hover img{
+            transition-duration: 0.5s;
+            width: 110%;
+        }
+        li:hover{
+            cursor: pointer;
+        }
+    }
+}
