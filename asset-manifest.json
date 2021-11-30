@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Blood-FYP/static/css/main.c25b64e0.chunk.css",
+    "main.js": "/Blood-FYP/static/js/main.fc04bbe6.chunk.js",
+    "main.js.map": "/Blood-FYP/static/js/main.fc04bbe6.chunk.js.map",
+    "runtime-main.js": "/Blood-FYP/static/js/runtime-main.2cf8be18.js",
+    "runtime-main.js.map": "/Blood-FYP/static/js/runtime-main.2cf8be18.js.map",
+    "static/js/2.1521e68e.chunk.js": "/Blood-FYP/static/js/2.1521e68e.chunk.js",
+    "static/js/2.1521e68e.chunk.js.map": "/Blood-FYP/static/js/2.1521e68e.chunk.js.map",
+    "index.html": "/Blood-FYP/index.html",
+    "static/css/main.c25b64e0.chunk.css.map": "/Blood-FYP/static/css/main.c25b64e0.chunk.css.map",
+    "static/js/2.1521e68e.chunk.js.LICENSE.txt": "/Blood-FYP/static/js/2.1521e68e.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/Blood-FYP/static/media/about-wall.47e819df.jpg",
+    "static/media/app-btn1.26d1bb49.png": "/Blood-FYP/static/media/app-btn1.26d1bb49.png",
+    "static/media/app.daff4aa6.png": "/Blood-FYP/static/media/app.daff4aa6.png",
+    "static/media/logo.89adb145.jpg": "/Blood-FYP/static/media/logo.89adb145.jpg",
+    "static/media/s1.45f8e661.jpg": "/Blood-FYP/static/media/s1.45f8e661.jpg",
+    "static/media/s2.5a0dd694.jpg": "/Blood-FYP/static/media/s2.5a0dd694.jpg",
+    "static/media/s3.161d9162.jpg": "/Blood-FYP/static/media/s3.161d9162.jpg",
+    "static/media/s4.3924a1ff.jpg": "/Blood-FYP/static/media/s4.3924a1ff.jpg",
+    "static/media/underline.e6895ecf.png": "/Blood-FYP/static/media/underline.e6895ecf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2cf8be18.js",
+    "static/js/2.1521e68e.chunk.js",
+    "static/css/main.c25b64e0.chunk.css",
+    "static/js/main.fc04bbe6.chunk.js"
+  ]
+}
