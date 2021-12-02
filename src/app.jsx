@@ -1,8 +1,10 @@
 import React from 'react'
-import Home from '../src/Home/Home';
-import About from '../src/About/about'
-import Searchblood from "../src/searchblood/searchblood";
-import Contactus from "../src/contactus/contactus";
+import Home from '../src/pages/Home';
+import About from '../src/pages/about'
+import Searchblood from "../src/pages/searchblood";
+import Contactus from "../src/pages/contactus";
+import Register from "./pages/register";
+import Login from "./pages/login";
 
 import "./style/styles.css";
 import {BrowserRouter as Router,Route} from 'react-router-dom'
@@ -16,6 +18,8 @@ function App()
                 <Route path="/aboutus" exact component={About}/>
                 <Route path="/searchblood" exact component={Searchblood}/>
                 <Route path="/contactus" excat component={Contactus}/>
+                <Route path="/register" excat component={Register}/>
+                <Route path="/login" excat component={Login}/>
             </Router>
         </>
     )

@@ -1,5 +1,6 @@
 {
   "name": "ok",
+  "homepage": "https://arjad.github.io/Blood-FYP",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "browser-router": "^0.2.0",
     "emailjs": "^3.5.0",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^3.2.3",
     "google-map-react": "^2.1.10",
     "google-maps-react": "^2.0.6",
     "react": "^17.0.2",
@@ -33,6 +35,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

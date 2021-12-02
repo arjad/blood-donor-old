@@ -4,7 +4,7 @@
 }
 .nav_bar{
     background-color:#E11B22;
-    color:white;
+    color:white !important; 
     height: 30px;  
 }
 .nav_bar .icon-div{
@@ -271,7 +271,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .wallpaper h1{
     color:white;
@@ -279,4 +278,331 @@
 }
 .wallpaper p{
     font-size: 15px;
+}
+/* /// */
+.about-div{
+    margin-bottom: 50px;
+}
+.about-div p{
+    font-size: 15px;
+}
+/* // */
+.searchblood-div{
+    border:1px solid red;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchblood-div details {
+	position: relative;
+	width: 300px;
+	margin-right: 1rem;
+}
+
+.searchblood-div details[open] {
+	z-index: 1;
+}
+
+.searchblood-div summary {
+	padding: 1rem;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #ddd;
+	list-style: none;
+}
+
+.searchblood-div summary::-webkit-details-marker {
+	display: none;
+}
+
+.searchblood-div details[open] summary:before {
+	content: '';
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	background: transparent;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.searchblood-div summary:after {
+	content: '';
+	display: inline-block;
+	float: right;
+	width: .5rem;
+	height: .5rem;
+	border-bottom: 1px solid currentColor;
+	border-left: 1px solid currentColor;
+	border-bottom-left-radius: 2px;
+	transform: rotate(45deg) translate(50%, 0%);
+	transform-origin: center center;
+	transition: transform ease-in-out 100ms
+}
+
+.searchblood-div summary:focus {
+	outline: none;
+}
+
+.searchblood-div details[open] summary:after {
+	transform: rotate(-45deg) translate(0%, 0%);
+}
+
+.searchblood-div ul {
+	width: 100%;
+	background: #ddd;
+	position: absolute;
+	top: calc(100% + .5rem);
+	left: 0;
+	padding: 1rem;
+	margin: 0;
+	box-sizing: border-box;
+	border-radius: 5px;
+	max-height: 200px;
+	overflow-y: auto;
+}
+
+.searchblood-div li {
+	margin: 0;
+	padding: 1rem 0;
+	border-bottom: 1px solid rgb(63, 63, 63);
+}
+
+.searchblood-div li:first-child {
+	padding-top: 0;
+}
+
+.searchblood-div li:last-child {
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+/* FAKE SELECT */
+
+.searchblood-div summary.radios {
+	counter-reset: radios;
+}
+
+.searchblood-div input[type=radio] {
+	counter-increment: radios;
+	appearance: none;
+	display: none;
+}
+
+.searchblood-div input[type=radio]:checked {
+	display: inline;
+}
+
+.searchblood-div input[type=radio]:after {
+	content: attr(title);
+	display: inline;
+	font-size: 1rem;
+}
+
+.searchblood-div ul.list {
+	counter-reset: labels;
+}
+
+.searchblood-div label {
+	width: 100%;
+	display: block;
+	cursor: pointer;
+}
+/* /// */
+
+.contactus-div{
+    font-size: 15px;
+    margin-top: -70px;
+
+}
+.contactus-div .contact-info{
+    list-style: none;
+    line-height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.contactus-div .contact-info li i{
+    margin-right: 20px;
+}
+.contactus-div .map-div{
+    background-image: url("../assets/map.jpg");
+    background-size: cover;
+    background-position:center;
+    border-radius: 10px;
+}
+.contactus-div .complain-form{
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-top: 60px;
+}
+.contactus-div .ad-div
+{
+    border-radius: 10px;
+    margin-top: 60px;
+    background-image: url("../assets/ads.png");
+    background-position: center;
+    background-size: 80% 100%;
+    border:1px solid black;
+}
+
+
+/* ///// */
+.login-div{
+    margin-top: 60px !important;
+}
+.login-div h1{ font-size:28px;}
+.login-div h2{ font-size:26px;}
+.login-div h3{ font-size:18px;}
+.login-div h4{ font-size:16px;}
+.login-div h5{ font-size:14px;}
+.login-div h6{ font-size:12px;}
+.login-div a{ text-decoration: none; }
+.login-div a:hover{ text-decoration: underline; }
+.login-div form:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.login-div .container { 
+    margin: 25px auto; 
+    position: relative; 
+}
+.login-div .content 
+{
+  background: #f9f9f9;
+  background: linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f9f9f9',GradientType=0 );
+  box-shadow: 0 1px 0 #fff inset;
+  border: 1px solid #c4c6ca;
+  margin: 0 auto;
+  padding: 25px 0 0;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+  width: 400px;
+}
+.login-div .content h1 {
+  color: #E11B22;
+  font: bold 25px Helvetica, Arial, sans-serif;
+  letter-spacing: -0.05em;
+  line-height: 20px;
+  margin: 10px 0 30px;
+}
+.login-div .content h1:before,
+.login-div .content h1:after {
+  content: "";
+  height: 1px;
+  position: absolute;
+  top: 10px;
+  width: 27%;
+}
+.login-div .content h1:after {
+  background: #E11B22;
+  right: 0;
+}
+.login-div .content h1:before {
+  background: #E11B22;
+    left: 0;
+}
+.login-div .content:after,
+.login-div .content:before {
+  background: #E11B22;
+  content: "";
+  display: block;
+  height: 100%;
+  left: -1px;
+  position: absolute;
+  width: 100%;
+}
+.login-div .content:after {
+    background-color:#E11B22;
+  transform: rotate(7deg);
+  top: 0;
+  z-index: -1;
+}
+.login-div .content:before {
+    background-color: gray;
+  transform: rotate(-4deg);
+  top: 0;
+  z-index: -2;
+}
+.login-div .content form { margin: 0 20px; position: relative }
+.login-div .content form input[type="text"],
+.login-div .content form input[type="password"] {
+  border-radius: 3px;
+  box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+  transition: all 0.5s ease;
+  background: #eae7e7 url(https://cssdeck.com/uploads/media/items/8/8bcLQqF.png) no-repeat;
+  border: 1px solid #c8c8c8;
+  color: #777;
+  font: 13px Helvetica, Arial, sans-serif;
+  margin: 0 0 10px;
+  padding: 15px 10px 15px 40px;
+  width: 80%;
+}
+.login-div .content form input[type="text"]:focus,
+.login-div .content form input[type="password"]:focus {
+  -webkit-box-shadow: 0 0 2px #ed1c24 inset;
+  -moz-box-shadow: 0 0 2px #ed1c24 inset;
+  -ms-box-shadow: 0 0 2px #ed1c24 inset;
+  -o-box-shadow: 0 0 2px #ed1c24 inset;
+  box-shadow: 0 0 2px #ed1c24 inset;
+  background-color: #fff;
+  border: 1px solid #ed1c24;
+  outline: none;
+}
+.login-div .username { background-position: 10px 10px !important }
+.login-div .password { background-position: 10px -53px !important }
+.login-div .content form input[type="submit"] {
+  background: rgb(254,231,154);
+  background: linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee79a', endColorstr='#fec151',GradientType=0 );
+  border-radius: 30px;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+  border: 1px solid #D69E31;
+  color: #85592e;
+  cursor: pointer;
+  float: left;
+  font: bold 15px Helvetica, Arial, sans-serif;
+  height: 35px;
+  margin: 20px 0 35px 15px;
+  position: relative;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  width: 120px;
+}
+.login-div .content form input[type="submit"]:hover {
+  background: rgb(254,193,81);
+  background: linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec151', endColorstr='#fee79a',GradientType=0 );
+}
+.login-div .content form div a {
+  color: #004a80;
+    float: right;
+    font-size: 12px;
+    margin: 30px 15px 0 0;
+    text-decoration: underline;
+}
+.login-div .button {
+  background: rgb(247,249,250);
+  background: linear-gradient(top,  rgba(247,249,250,1) 0%,rgba(240,240,240,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f9fa', endColorstr='#f0f0f0',GradientType=0 );
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1) inset;
+  border-radius: 0 0 5px 5px;
+  border-top: 1px solid #CFD5D9;
+  padding: 15px 0;
+}
+.login-div .button a {
+  background: url(https://cssdeck.com/uploads/media/items/8/8bcLQqF.png) 0 -112px no-repeat;
+  font-size: 17px;
+  padding: 2px 0 2px 40px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.login-div .button a:hover {
+  background-position: 0 -135px;
+  color: #00aeef;
 }

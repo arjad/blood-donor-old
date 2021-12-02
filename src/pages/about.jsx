@@ -7,12 +7,13 @@ import Underline from "../assets/underline.png";
 export default function about() 
 {
     return (
-        <div className="about-div">
+        <div>
             <Nav />
             <Nav2 />
             <div className="wallpaper mb-5 container-fluid">
                 <h1>About Us</h1>
             </div>
+            <div className="about-div">
 
             <div className="mt-5 container ">
                 <div className="heading_donors">
@@ -39,6 +40,7 @@ export default function about()
                     University's Blood Society helped us by providing donors information in this regard.
                 </p>
                 
+            </div>
             </div>
 
             <Footer />

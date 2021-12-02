@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from "react-router-dom";
+
 // import "../style/style.css";
 export default function nav() {
     return (
@@ -15,9 +17,13 @@ export default function nav() {
                   <option value="eng">English</option>
                   <option value="urdu">Urdu</option>
                 </select>
+                <Link to="/register">
                 <a>Register</a>
+                </Link>
                 |
+                <Link to="login">
                 <a>Login</a>
+                </Link>
             </div>
             
         </div>
